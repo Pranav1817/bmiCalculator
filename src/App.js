@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { useState } from "react";
-
+import Navbar from "./component/Navbar";
 function App() {
   const [weight, setWeight] = useState(0);
   const [height, setHeight] = useState(0);
@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div>
-      
+      <Navbar />
       <div className="App">
         <div className="container">
           <h2>BMI Calculator</h2>
